@@ -22,10 +22,40 @@ build/Release
 # Dependency directory
 # Deployed apps should consider commenting this line out:
 # see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
-node_modules
+node_modules/
 
 # Ignore .env configuration files
 .env
 
 # Ignore .DS_Store files on OS X
 .DS_Store
+.idea/
+
+*.dat
+*.DS_Store
+*.gz
+*.out
+*.pid
+*.seed
+*.swp
+*.un~
+*.iml
+*.ipr
+*.iws
+*.sublime-*
+
+logs
+npm-debug.log
+pids
+results
+coverage
+coverage.html
+.cover*
+lib-cov
+
+bundles
+docs/_dist
+admin/public/styles/auth.css
+admin/public/styles/auth.min.css
+admin/public/styles/keystone.css
+admin/public/styles/keystone.min.css
